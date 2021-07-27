@@ -163,18 +163,6 @@ b::after,strong::after {
     content: "**";
     font-weight: bold;
 }
-code {
-    background-color: #333;
-    font-family: inherit;
-}
-code::before {
-    content: "`";
-    background-color: var(--bg-color);
-}
-code::after {
-    content: "`";
-    background-color: var(--bg-color);
-}
 blockquote {
     margin: var(--line-height) var(--character-width) var(--line-height) calc(var(--character-width) * 2);
     position: relative;
