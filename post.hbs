@@ -24,6 +24,10 @@
     </p>
     {{/primary_tag}}
     {{/if}}
+    <p class="secondary">
+        <span class="authors">{{#foreach authors}}<a href="{{url}}" class="author quiet-link">{{name}}</a>{{/foreach}}</span>
+        <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD/MM/YYYY"}}</time>
+    </p>
 </div>
 
 {{content}}
