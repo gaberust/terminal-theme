@@ -182,7 +182,6 @@ blockquote::before {
 img {
     max-width: 100%;
     height: auto;
-    filter: saturate(0) brightness(82%) sepia(100) hue-rotate(183deg);
     vertical-align: top;
 }
 @media only screen and (max-width: 700px) {
